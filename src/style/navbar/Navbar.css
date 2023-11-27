@@ -1,0 +1,31 @@
+ul,ol{
+    list-style: none;
+    padding-right: 30%;
+    margin: 0%;
+}
+
+ul li a {
+    color: #f7f4f4;
+    text-decoration:none; 
+  }
+
+ li {
+    display: inline;
+    margin-right: 20px;
+    font-size: large;
+    color: white;
+
+ }
+ .description {
+    background-color: rgb(18, 1, 80);
+    size: 100px;
+ }
+ 
+ .facebook-icon,
+ .instagram-icon,
+ .x-icon{
+   width: 20px;
+   height: auto;
+   padding-left: 40px;
+
+ }

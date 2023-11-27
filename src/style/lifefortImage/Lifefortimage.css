@@ -1,0 +1,11 @@
+.unique-care{
+    display: flex;
+    align-items: center;
+}
+
+
+.children-image{
+    width: 40%;
+    height:auto;
+    padding-right: 40%;
+}
