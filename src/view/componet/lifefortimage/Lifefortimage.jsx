@@ -21,10 +21,10 @@ const Imageword = () =>{
                 <img src={childrenimage} alt="children-image" className='children-image' />
                 
                 <div className='unique-writeup'>
-                <h2 id=''>Unique care for every  child</h2>
-                <p id='0-1'>LifeFort Hospital blends cutting-edge medical expertise with compassion.<br/>
-                            Your child's well-being is our priority. Choose LifeFort for a healthier, happier future.
-                </p>
+                    <h2 id=''>Unique care for every  child</h2>
+                    <p id='0-1'>LifeFort Hospital blends cutting-edge medical expertise with compassion.
+                        Your child's well-being is our priority. Choose LifeFort for a healthier, happier future.
+                    </p>
                 </div>
             </div>
 
