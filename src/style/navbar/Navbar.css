@@ -1,7 +1,12 @@
 ul,ol{
+
     list-style: none;
     padding-right: 30%;
     margin: 0%;
+}
+
+#list{
+   margin-left: 80px;
 }
 
 ul li a {
@@ -17,6 +22,9 @@ ul li a {
 
  }
  .description {
+   display: flex;
+   align-items: center;
+   height: 40px;
     background-color: rgb(18, 1, 80);
     size: 100px;
  }
