@@ -1,16 +1,17 @@
 .unique-care{
     display: flex;
     align-items: center;
-    width: 900px;
-    /* justify-content: center; */
+    width: 800px;
+    justify-content: space-between;
     margin: auto;
+    padding: 40px 0px;
 }
 
 
 .children-image{
     width: 400px;
     height: 300px;
-    padding-right: 40%;
+    /* padding-right: 40%; */
 }
 
 .unique-writeup{
