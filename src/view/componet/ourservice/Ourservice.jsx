@@ -10,6 +10,7 @@ import psurgeon from '../../../assets/image/service-icon/p_surgeon.svg';
 import ps from '../../../assets/image/service-icon/ps.svg';
 import schoolhealth from '../../../assets/image/service-icon/school-health.svg';
 import woundcare from '../../../assets/image/service-icon/wound-care.svg';
+import '../../../style/ourservice/Ourservice.css'
 
 
 
@@ -19,28 +20,52 @@ const Ourservices = () => {
         <div className="services">
             <h2>Our Services</h2>
 
-            <img src={childcare}  style={{width: '35px'}}  alt="" />
-            <p>New-Born Care</p>
-            <img src={childfriendly} style={{width: '35px'}}  alt="" />
-            <p>Children-Friendly Environmenty</p>
-            <img src={dispensary} style={{width: '35px'}}  alt="" />
-            <p>Dispensary</p>
-            <img src={growthmonitoring} style={{width: '35px'}}  alt="" />
-            <p>Growth Monitoring & Health Education</p>
-            <img src={immunization} style={{width: '35px'}}  alt="" />
-            <p>Immunization</p>
-            <img src={inpatient} style={{width: '35px'}}  alt="" />
-            <p>In-Patient</p>
-            <img src={ops} style={{width: '35px'}}  alt="" />
-            <p>Out Patient Services</p>
-            <img src={psurgeon} style={{width: '35px'}}  alt="" />
-            <p>Paediatric Surgery</p>
-            <img src={ps} style={{width: '35px'}}  alt="" />
-            <p>Paediatrician's Review of Every Child at Every Visit</p>
-            <img src={schoolhealth} style={{width: '35px'}}  alt="" />
-            <p>School Health Services</p>
-            <img src={woundcare} style={{width: '35px'}}  alt="" />
-            <p>Wound Care</p>
+            <div className='ourServices'>
+                <div className='serviceImage'>
+                    <img src={childcare}  style={{width: '35px'}}  alt="" />
+                    <p>New-Born Care</p>
+                </div>
+                <div className='serviceImage'>
+                    <img src={childfriendly} style={{width: '35px'}}  alt="" />
+                    <p>Children-Friendly Environmenty</p>
+                </div>
+                <div className='serviceImage'>
+                    <img src={dispensary} style={{width: '35px'}}  alt="" />
+                    <p>Dispensary</p>
+                </div>
+                <div className='serviceImage'>
+                    <img src={growthmonitoring} style={{width: '35px'}}  alt="" />
+                    <p style={{paddingRight: '45px'}}>Growth Monitoring & Health Education</p>
+                </div>
+                <div className='serviceImage'>
+                    <img src={immunization} style={{width: '35px'}}  alt="" />
+                    <p>Immunization</p>
+                </div>
+                <div className='serviceImage'>
+                    <img src={inpatient} style={{width: '35px'}}  alt="" />
+                    <p>In-Patient</p>
+                </div>
+                <div    className='serviceImage'>
+                <img src={ops} style={{width: '35px'}}  alt="" />
+                <p>Out Patient Services</p>
+                </div>
+                <div className='serviceImage'>
+                <img src={psurgeon} style={{width: '35px'}}  alt="" />
+                <p>Paediatric Surgery</p>
+                </div>
+                <div className='serviceImage'>
+                <img src={ps} style={{width: '35px'}}  alt="" />
+                <p>Paediatrician's Review of Every<br/> Child at Every Visit</p>
+                </div>
+                <div className='serviceImage'>
+                <img src={schoolhealth} style={{width: '35px'}}  alt="" />
+                <p>School Health Services</p>
+                </div>
+                <div className='serviceImage'>
+                <img src={woundcare} style={{width: '35px'}}  alt="" />
+                <p>Wound Care</p>
+                </div>
+            </div>
         </div>
 
     )

@@ -1,25 +1,69 @@
 .unique-care{
     display: flex;
     align-items: center;
-    width: 900px;
-    /* justify-content: center; */
+    width: 800px;
+    justify-content: space-between;
     margin: auto;
+    padding: 40px 0px;
+    padding-top: 50px;
 }
 
 
 .children-image{
     width: 400px;
     height: 300px;
-    padding-right: 40%;
+    /* padding-right: 40%; */
 }
 
 .unique-writeup{
     width: 300px;
 
 }
-#0{
- background-color: rgb(180, 125, 57);  
- font-family: 'p22-mackinac-pro'; 
- font-size: xx-large;
 
-}   
+.doctor-patient{
+    display: flex;
+    align-items: center;
+    width: 800px;
+    justify-content: space-between;
+    margin: auto;
+    padding: 40px, 0px;
+    padding-top: 50px;
+}
+
+.doctor-image{
+    width:  400px;
+    height: 300px;
+}
+
+.doctor-patientWriteUp{
+    width: 300px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    width: 800px;
+    justify-content: space-between;
+    margin: auto;
+    padding: 40px, 0px;
+    padding-top: 80px;
+
+}
+.location-image{
+    width: 400px;
+    height: 300px;
+
+}
+
+.location-writeUp{
+    width: 300px;   
+}
+
+.facilities{
+    padding-top: 50px;
+    width: 1300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}

@@ -1,0 +1,13 @@
+.ourServices{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 1200px;
+    margin: auto;
+}
+.serviceImage{
+    display: flex;
+    width: 300px;
+}
+.serviceImage img{
+    padding-right: 30px;
+}
