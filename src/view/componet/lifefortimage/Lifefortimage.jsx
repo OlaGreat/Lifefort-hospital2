@@ -61,7 +61,13 @@ const Imageword = () =>{
 
             <div className='facilities'>
                 <div>
-                    <h3>our Facilities</h3>
+                    <h2>Our Facilities</h2>
+                    <p>
+                     At Lifefort, we take pride in providing state-of-the-art facilities dedicated to the well-being and care <br />
+                     of your child. Our modern and child-friendly environment is designed to ensure comfort and ease during their <br />
+                      medical journey.
+
+                    </p>
                 </div>
                 
                 <img src={reception} style={{width: '400px', height: '300px', borderRadius: '10px'}} alt="reception"  className='reception'/>

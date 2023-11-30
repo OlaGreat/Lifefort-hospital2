@@ -2,3 +2,17 @@
     width: 100px;
     padding-right: 80%;
 }
+.phone{
+    display:flex;
+    margin-left: 1330px;
+}
+
+.email{
+    display:flex;
+    margin-left: 1395px;
+
+}
+
+.contact-us{
+    margin-top: -80px;
+}
