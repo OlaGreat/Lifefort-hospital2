@@ -10,19 +10,19 @@ const Map = () => {
 
     return (
        <div>
-         <hr style={{backgroundColor: '#FF0000',borderColor: '#FF0000', width: '700px', height: '5px', marginTop: '50px'}}/>  
-        <div className='map'>
+            <hr style={{backgroundColor: '#2775ad',borderColor: '#2775ad', width: '700px', height: '5px', marginTop: '50px'}}/>  
+            <div className='map'>
             
-            <img src={locationmap} style={{height: '200px'}}   alt="" />
+                <img src={locationmap} style={{height: '200px'}}   alt="" />
 
-            <div className='mapWriteUp'>
-                <h1>Find us on the Map</h1>
-                <p>Find Lifefort Children's <br/>Medical Centre from wherever you are in lagos</p>
-                <button style={{color: 'white', backgroundColor: '#1bbc9b'}} onClick={handleViewOnMap}>view on map</button>
-            </div>
+                <div className='mapWriteUp'>
+                    <h1>Find us on the Map</h1>
+                    <p>Find Lifefort Children's <br/>Medical Centre from wherever you are in lagos</p>
+                    <button style={{color: 'white', backgroundColor: '#2775ad'}} onClick={handleViewOnMap}>view on map</button>
+                </div>
 
            
-        </div>
+            </div>
        </div>
         
 

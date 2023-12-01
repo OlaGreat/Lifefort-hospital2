@@ -8,11 +8,12 @@ const Footer = () => {
         window.location.href = 'tel:+2348037175616'
     }
     const handleEmail = () => {
+        window.location.href = 'mailto:info@lifefortchildrenshospital.com'
         
 
     }
     return(
-        <div className='fotter'>
+        <div className='fotter' >
             
             <div className='fotterWriteUp'>
                 <h1 style={{color: '#f0f0f0'}}>Little hearts, big care,<br/> welcome to our childcare family</h1>
@@ -37,6 +38,8 @@ const Footer = () => {
                 Lagos, Nigeria.
                 </p>
 
+               
+
                 <div>
                     <p style={{marginLeft: '700px' }}>
                      ©2017 LIFEFORT CHILDREN'S MEDICAL CENTRE.<br />
@@ -45,6 +48,13 @@ const Footer = () => {
                 </div>
 
             </div>
+
+                <div >
+                    <h2  style={{color: '#f0f0f0', }}>Vision</h2>
+                    <p style={{color: '#f0f0f0', fontSize: '20px'}}>To ensure that our children live life at its fullest by providing excellent <br />
+                        comprehensive child health promotive services in a child friendly environment.
+                    </p>
+                </div>
 
             <div className='belowFotter'>
                 <div className='lifefort'>

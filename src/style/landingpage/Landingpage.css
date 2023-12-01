@@ -1,1 +1,10 @@
 
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* background-color: your-color; */
+    background-color: #f7f5ee;
+    
+}

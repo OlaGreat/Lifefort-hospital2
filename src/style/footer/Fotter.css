@@ -1,8 +1,11 @@
 .fotter{
     /* display: flex; */
-    background-color: #3d88ba;
-    height: 400px;
+    /* background-color: #3d88ba; */
+    background-image: url("../../assets/image/Black-mother-and-baby.jpg");
+    background-size: cover;
+    height: 100%;
     margin-top: 100px;
+    background-position: center ;
 
 }
 
@@ -27,6 +30,7 @@
 
 .address img{
     padding-top: 15px;
+    
 }
 
 .address p{
@@ -39,7 +43,7 @@
 
 .belowFotter{
     background-color: #00283d;
-    height: 100px;
+    height: 60px;
 }
 
 .belowFotter h2{
