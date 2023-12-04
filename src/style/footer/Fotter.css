@@ -43,7 +43,7 @@
 
 .belowFotter{
     background-color: #00283d;
-    height: 60px;
+    max-height: 100px;
 }
 
 .belowFotter h2{

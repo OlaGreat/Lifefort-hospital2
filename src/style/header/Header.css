@@ -1,5 +1,5 @@
 .lifeforthospital{
-    width: 100px;
+    max-width: 10%;
     padding-right: 80%;
 }
 .phone{
@@ -16,3 +16,120 @@
 .contact-us{
     margin-top: -80px;
 }
+
+/* @media only screen and (min-width:1200px){
+    body {
+        max-width: 100%;
+        max-height: 100%;
+    }
+ }
+ 
+ @media only screen and (min-width:768px){
+    .lifeforthospital{
+        max-width: 18%;
+        padding-right: 70%;
+        margin-top: 10px;
+    }
+
+    .phone{
+        display:flex;
+        margin-left: 208px;
+        font-size: small;
+
+    }
+    
+    .email{
+        display:flex;
+        margin-left: 260px;
+        font-size: small;
+    
+    }
+    .contact-us{
+        margin-top: -65px;
+    }
+   
+ }
+
+
+ @media only screen and (min-width: 412px){
+    .lifeforthospital{
+        max-width: 18%;
+        padding-right: 50%;
+        margin-top: 10px;
+    }
+
+    .phone{
+        display:flex;
+        margin-left: 250px;
+        font-size: small;
+
+    }
+    
+    .email{
+        display:flex;
+        margin-left: 304px;
+        font-size: small;
+    
+    }
+    .contact-us{
+        margin-top: -65px;
+    }
+    
+ } */
+
+
+  
+ @media only screen and (max-width:500px) {
+    .lifeforthospital{
+        max-width: 18%;
+        padding-right: 70%;
+        margin-top: 10px;
+    }
+
+    .phone{
+        display:flex;
+        /* justify-content: flex-end; */
+        margin-left: 258px;
+        font-size: small;
+
+    }
+    
+    .email{
+        display:flex;
+        margin-left: 310px;
+        font-size: small;
+    
+    }
+    .contact-us{
+        margin-top: -65px;
+    }
+    
+  
+  } 
+
+  @media only screen and (max-width:3px) {
+    .lifeforthospital{
+        max-width: 18%;
+        padding-right: 70%;
+        margin-top: 10px;
+    }
+
+    .phone{
+        display:flex;
+        margin-left: 258px;
+        font-size: small;
+
+    }
+    
+    .email{
+        display:flex;
+        margin-left: 310px;
+        font-size: small;
+    
+    }
+    .contact-us{
+        margin-top: -65px;
+    }
+    
+  
+  }  
