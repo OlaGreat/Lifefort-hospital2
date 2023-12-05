@@ -1,0 +1,25 @@
+
+@media screen and (max-width: 600px) {
+
+
+    .about, h{
+        display: inline-block;
+        align-items: center;
+        justify-content: center ;
+        width: 430px;
+        height: 5px;
+        font-size: 1.rem;
+        
+    }
+    hr{
+        /* display: none; */
+    }
+
+   /* .about, p{
+        display: flex;
+        align-items: center;
+        justify-content: center ;
+      
+    } */
+    
+}

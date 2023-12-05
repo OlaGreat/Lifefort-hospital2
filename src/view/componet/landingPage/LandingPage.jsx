@@ -15,12 +15,14 @@ const LandingPage = () => {
   return (
   <div>
     <Header/>
+    <div className='below-header'>
     <Navbar/>
     <Aboutlifefort/>
     <Imageword/>
     <Ourservice/>
     <Map/>
     <Fotter/>
+    </div>
 
   </div>
   )

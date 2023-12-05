@@ -1,10 +1,20 @@
+.header{
+    position: fixed;
+    background-color: #f7f5ee;
+    width: 100%;
+    /* z-index: 1000; */
+
+}
+
 .lifeforthospital{
     max-width: 10%;
     padding-right: 80%;
+    padding-top: 10px;
 }
 .phone{
     display:flex;
     margin-left: 1330px;
+    margin-bottom:  -10px;
 }
 
 .email{
@@ -16,6 +26,40 @@
 .contact-us{
     margin-top: -80px;
 }
+
+
+@media only screen and (max-width:600px) {
+    .header{
+        position: fixed;
+        width: 100%;
+    
+    }
+    
+    .lifeforthospital{
+        width: 8%;
+        padding-right: 90%;
+        margin-top: 10px;
+    }
+
+    .phone{
+        display:flex;
+        margin-left: 258px;
+        font-size: small;
+
+    }
+    
+    .email{
+        display:flex;
+        margin-left: 310px;
+        font-size: small;
+    
+    }
+    .contact-us{
+        margin-top: -65px;
+    }
+    
+  
+  } 
 
 /* @media only screen and (min-width:1200px){
     body {
@@ -79,7 +123,9 @@
 
 
   
- @media only screen and (max-width:500px) {
+ 
+
+  /* @media only screen and (max-width:400px) {
     .lifeforthospital{
         max-width: 18%;
         padding-right: 70%;
@@ -88,15 +134,14 @@
 
     .phone{
         display:flex;
-        /* justify-content: flex-end; */
-        margin-left: 258px;
+        margin-left: 220px;
         font-size: small;
 
     }
     
     .email{
         display:flex;
-        margin-left: 310px;
+        margin-left: 273px;
         font-size: small;
     
     }
@@ -105,31 +150,4 @@
     }
     
   
-  } 
-
-  @media only screen and (max-width:3px) {
-    .lifeforthospital{
-        max-width: 18%;
-        padding-right: 70%;
-        margin-top: 10px;
-    }
-
-    .phone{
-        display:flex;
-        margin-left: 258px;
-        font-size: small;
-
-    }
-    
-    .email{
-        display:flex;
-        margin-left: 310px;
-        font-size: small;
-    
-    }
-    .contact-us{
-        margin-top: -65px;
-    }
-    
-  
-  }  
+  }   */
