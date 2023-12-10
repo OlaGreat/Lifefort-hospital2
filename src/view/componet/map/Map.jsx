@@ -9,7 +9,7 @@ const Map = () => {
     }
 
     return (
-       <div>
+       <div className='map'>
             <hr style={{backgroundColor: '#2775ad',borderColor: '#2775ad', width: '700px', height: '5px', marginTop: '50px'}}/>  
             <div className='map'>
             

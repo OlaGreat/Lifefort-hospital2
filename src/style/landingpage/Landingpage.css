@@ -5,7 +5,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #f7f5ee;
-    max-width: 100px;
+    max-width: 100%;
     
     
 }
@@ -17,7 +17,7 @@ html, body {
 
 @media only screen and (max-width: 600px) {
     .below-header{
-        padding-top: 100%;
+        padding-top: 100px;
     }
     
 }

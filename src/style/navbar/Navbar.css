@@ -39,16 +39,14 @@ ul li a {
  }
 
  @media only screen and (max-width:600px) {
-   .description{
-      display: none;
-   }
 
-   /* .facebook-icon,
- .instagram-icon,
- .x-icon{
-   display: none;
+  .description {
+    display: none;
+  }
 
- } */
+ 
+  
+
 }
 
 

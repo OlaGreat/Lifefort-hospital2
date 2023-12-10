@@ -1,25 +1,19 @@
-
+.mobile-display{
+    display: none;
+}
 @media screen and (max-width: 600px) {
 
-
-    .about, h{
-        display: inline-block;
-        align-items: center;
-        justify-content: center ;
-        width: 430px;
-        height: 5px;
-        font-size: 1.rem;
-        
+    .about{
+        border: 1px solid;
+        border-color: black;
+        margin-right:auto;
+        margin-left: auto;
+        padding: 5px;  
     }
-    hr{
-        /* display: none; */
+    .web-display{
+        display: none;
     }
-
-   /* .about, p{
-        display: flex;
-        align-items: center;
-        justify-content: center ;
-      
-    } */
-    
+    .mobile-display{
+        display: inline;
+    }    
 }

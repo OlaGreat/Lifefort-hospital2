@@ -33,6 +33,7 @@
 .doctor-image{
     width:  400px;
     height: 300px;
+    padding: 20px;
 }
 
 .doctor-patientWriteUp{
@@ -66,4 +67,109 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+}
+.facilities img{
+    width: 400px;
+    height: 300px; 
+    border-Radius: 10px;
+}
+
+.doctor-patientWriteUp-mobileview{
+    display: none;
+}
+
+
+@media only screen and (max-width:600px) {
+    .unique-care{     
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        padding: 40px 0px;
+        padding-top: 50px;
+    } 
+
+    .children-image{
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 250px;
+    }
+
+    .unique-writeup{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .image{
+        border: 1px black solid;
+       
+    }
+
+    .doctor-patient{
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        padding: 40px 0px;
+        padding-top: 50px;
+
+    }
+    .doctor-patientWriteUp-mobileview{
+        display: inline-block;
+    }
+
+    .doctor-patientWriteUp{
+        display: none;
+        border: 1px black solid;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .doctor-patientWriteUp-mobileview{
+        border: 1px black solid;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+    }
+
+   
+
+    .location{
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        padding: 40px 0px;
+        padding-top: 50px;
+    }
+
+    .location-writeUp{
+        border: 1px black solid;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .facilities{
+        width: 100px;
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .facilities img{
+        width: 200px;
+        height: 150px;
+        border: 1px black solid;
+    }
+
+    .reception{
+        margin-top: 90px;
+    }
+    .children-ward2{
+        display: none;
+    }
+
+    .facilities-writeUp {
+        padding-top: 20px;
+    }
+
 }
