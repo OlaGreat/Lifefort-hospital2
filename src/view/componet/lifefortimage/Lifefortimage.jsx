@@ -18,7 +18,7 @@ const Imageword = () =>{
 
         <div className='image'>
             <div className='unique-care'>
-                <img src={childrenimage} style={{borderRadius: '5px'}} alt="children-image" className='children-image' />
+                <img src={childrenimage}  alt="children-image" className='children-image' />
 
                 <div className='unique-writeup'>
                     <h2 >Unique care for every  child</h2>
@@ -41,7 +41,8 @@ const Imageword = () =>{
                         attend to every child's health needs.
                     </p>
                 </div>
-                <img src={doctorimage} style={{borderRadius: '5px'}}  alt="doctor-image" className='doctor-image'/> 
+
+                <img src={doctorimage}  alt="doctor-image" className='doctor-image'/> 
                 
                 <div className='doctor-patientWriteUp-mobileview'>
                     <h2>Child-care That's All Smiles.</h2>
@@ -56,7 +57,7 @@ const Imageword = () =>{
 
             <div className='location'>
 
-                <img src= {location} style={{borderRadius: '5px'}} alt="location-image" className='location-image' />
+                <img src= {location} alt="location-image" className='location-image' />
 
                 <div className='location-writeUp'>
                     <h2>Location</h2>
@@ -90,8 +91,6 @@ const Imageword = () =>{
                 <img src={childrenward}  alt="children-ward" className='children-ward2' />            
             
                 
-
-
             </div>
 
 
