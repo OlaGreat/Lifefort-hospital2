@@ -33,18 +33,21 @@
         position: fixed;
         height: 10%;
         width: 100%;
-        margin: 1px; 
+        /* margin: 1px;  */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
     
     .lifeforthospital{
-        width: 17%;
-         /* padding-right: 90%; */
+        width: 80px;
+         padding-left: 20px;
         /* margin-top: 5px;  */
     }
 
     .phone{
-        display:flex;
-        width: 33%;
+        /* display:flex; */
+        /* width: 33%; */
         margin-left: auto;
         margin-right: 1%;
         font-size: small;
@@ -52,14 +55,15 @@
     }
     
     .email{
-        display:flex;
-        width: 33%;
-        margin-left: auto;
-        margin-right: -11.5%;
+        /* display:flex; */
+        /* width: 33%; */
+        margin-left: 52px;
+        /* margin-right: -11.5%; */
         font-size: small; 
     }
     .contact-us{
-        margin-top: -60px;
+        width: 160px;
+        margin-top: 0px;
     }
 
      } 

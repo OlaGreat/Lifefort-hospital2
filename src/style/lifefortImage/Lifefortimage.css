@@ -106,7 +106,7 @@
 
     .image{
         border: 1px black solid;
-       
+       overflow-x: hidden;
     }
 
     .doctor-patient{
@@ -167,21 +167,23 @@
 
 
     .facilities{
-        width: 100px;
+        width: 50%;
         margin-left: 10px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
+
     }
 
     .facilities img{
-        width: 200px;
+        width: 180px;
         height: 150px;
         border: 1px black solid;
     }
 
     .reception{
         margin-top: 90px;
+        /* width: 100px; */
     }
     .children-ward2{
         display: none;
