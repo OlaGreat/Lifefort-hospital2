@@ -10,10 +10,19 @@
 }
 .serviceImage img{
     padding-right: 30px;
+    width: 35px;
 }
 @media only screen and (max-width:600px) {
-    .services{
-        display: none;
+    .ourServices{
+        width: 50%;
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
+    .serviceImage img{
+        padding-right: 30px;
+        width: 35px;
+    }
+   
 
 }
