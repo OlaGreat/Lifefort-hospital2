@@ -38,7 +38,7 @@ const Ourservices = () => {
                     <p style={{paddingRight: '45px'}}>Growth Monitoring & Health Education</p>
                 </div>
                 <div className='serviceImage'>
-                    <img src={immunization} style={{width: '35px'}}  alt="" />
+                    <img src={immunization}   alt="" />
                     <p>Immunization</p>
                 </div>
                 <div className='serviceImage'>
@@ -55,7 +55,7 @@ const Ourservices = () => {
                 </div>
                 <div className='serviceImage'>
                 <img src={ps}   alt="" />
-                <p>Paediatrician's Review of Every<br/> Child at Every Visit</p>
+                <p className='Paediatrician'>Paediatrician's Review of Every Child at Every Visit</p>
                 </div>
                 <div className='serviceImage'>
                 <img src={schoolhealth}   alt="" />
