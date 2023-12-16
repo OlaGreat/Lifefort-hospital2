@@ -13,24 +13,20 @@ const Footer = () => {
 
     }
     return(
-        <div className='fotter' >
+        <div className='fotter'>
             
             <div className='fotterWriteUp'>
-                <h1 style={{color: '#f0f0f0'}}>Little hearts, big care,<br/> welcome to our childcare family</h1>
+                <h1>Little hearts, big care,<br/> welcome to our childcare family</h1>
             </div>
 
             <div className='communication-button'>
-                <button onClick={handleCall} style={{color: '#f7f4f4', backgroundColor: '#2775ad', marginLeft: '200px', borderRadius: '6px',
-                     height: '50px', font: 'trade-gothic-next', fontSiz: '13px', fontWeight: '700'}}>call +234-803-717-5616
-                </button>
-                <button onClick={handleEmail} style={{color: '#f7f4f4', backgroundColor: '#2775ad', marginLeft: '100px', borderRadius: '6px',
-                    height: '50px', font: 'trade-gothic-next', fontSiz: '13px', fontWeight: '700'}}
-                    >Email info@lifefortchildrenshospital.com
-                </button>
+                <button onClick={handleCall} className='phone-number' >call +234-803-717-5616</button>
+
+                <button onClick={handleEmail} className='email-address'>Email info@lifefortchildrenshospital.com</button>
             </div>
 
             <div className='address'>
-                <img src={location} style={{height: '18px' }} alt="" />
+                <img src={location} alt="" />
                 <p>
                 Lifefort Children's Centre <br />
                 70 Agege Motor Road, <br />
@@ -41,7 +37,7 @@ const Footer = () => {
                
 
                 <div>
-                    <p style={{marginLeft: '700px' }}>
+                    <p className='policy'>
                      ©2017 LIFEFORT CHILDREN'S MEDICAL CENTRE.<br />
                      Terms of Use | Privacy Policy
                      </p>
@@ -51,7 +47,7 @@ const Footer = () => {
 
                 <div >
                     <h2  style={{color: '#f0f0f0', }}>Vision</h2>
-                    <p style={{color: '#f0f0f0', fontSize: '20px'}}>To ensure that our children live life at its fullest by providing excellent <br />
+                    <p className='vision'>To ensure that our children live life at its fullest by providing excellent <br />
                         comprehensive child health promotive services in a child friendly environment.
                     </p>
                 </div>
@@ -63,8 +59,6 @@ const Footer = () => {
 
 
                 </div>
-                
-
 
             </div>
 

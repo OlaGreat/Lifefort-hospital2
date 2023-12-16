@@ -19,6 +19,10 @@ html, body {
     .below-header{
         padding-top: 100px;
     }
+
+    .landing-page{
+        width: 100%;
+    }
     
 }
 

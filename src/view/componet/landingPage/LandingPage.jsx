@@ -13,7 +13,7 @@ import Header from '../header/Header.jsx';
 
 const LandingPage = () => {
   return (
-  <div>
+  <div className='landing-page'>
     <Header/>
     <div className='below-header'>
     <Navbar/>
