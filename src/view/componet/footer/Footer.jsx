@@ -34,9 +34,7 @@ const Footer = () => {
                 Lagos, Nigeria.
                 </p>
 
-               
-
-                <div>
+                <div >
                     <p className='policy'>
                      ©2017 LIFEFORT CHILDREN'S MEDICAL CENTRE.<br />
                      Terms of Use | Privacy Policy
@@ -45,7 +43,7 @@ const Footer = () => {
 
             </div>
 
-                <div >
+                <div className='vision-top' >
                     <h2  style={{color: '#f0f0f0', }}>Vision</h2>
                     <p className='vision'>To ensure that our children live life at its fullest by providing excellent <br />
                         comprehensive child health promotive services in a child friendly environment.
@@ -56,8 +54,6 @@ const Footer = () => {
                 <div className='lifefort'>
                 <h2 style={{color: '#070707', backgroundColor: '#ffffff'}}>LIFEFORT</h2>
                 <h2> PEDIATRIC CARE</h2>
-
-
                 </div>
 
             </div>

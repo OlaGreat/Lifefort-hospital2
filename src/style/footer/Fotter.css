@@ -1,12 +1,12 @@
 .fotter{
-    /* display: flex; */
+    
     /* background-color: #3d88ba; */
     background-image: url("../../assets/image/Black-mother-and-baby.jpg");
-    background-size: cover;
+    /* background-size: cover;
     height: 100%;
     margin-top: 100px;
-    background-position: center ;
-    background-attachment: fixed;
+    background-position: center ; */
+    /* background-attachment: fixed; */
     
 }
 
@@ -97,16 +97,85 @@
 }
 
 @media only screen and (max-width:600px) {
+    
     .fotter{
-        /* display: flex; */
-        /* background-color: #3d88ba; */
-        background-image: url("../../assets/image/Black-mother-and-baby.jpg");
+        background-image: url("../../assets/image/mother\ and\ child.jpg");
         width: 100%;
-        height: 10%;
+        height: 100%;
         border: 1px black solid;
-        
+        margin-top: 20px;  
+    }
+
+    .fotterWriteUp h1{
+        font-family: p22-mackinac-pro;
+        font-size: 25px;
+        line-height: 35px;
+        color: rgb(255, 255, 255)
+    }
+
+    .phone-number{
+        color: #f7f4f4;
+        background-color: #2775ad;
+        border-radius: 6px;
+        height: 25px;
+        font-weight: 700;
+        font-size: 15px;
+        margin-left: -30px;  
+    }
+    .email-address{
+        color: #f7f4f4;
+        background-color: #2775ad;
+        margin-left: 100px;
+        border-radius: 6px;
+        height: 40px;
+        font: 'trade-gothic-next';
+        font-size:13px;
+        font-weight:700 ;
+        margin-right: auto;
+    }
+    .communication-button{
+       display: none;
+    }
 
    
+
+    .address{
+        display:flex;
+        margin-top: 50px;
+        margin-left: 10px;
+        font-size: 17px;
     }
+
+    .policy{
+        display: none;
+        margin: 0px;
+    }
+
+    .vision-top h2{
+        
+    }
+    .vision{
+    padding: 5px;
+    }
+
+       
+
+    .lifefort{
+        display: inline;
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .belowFotter h2{
+
+        margin: 0px;
+        padding: 0px; 
+        display: inline;  
+        color: #ffffff ;  
+        font-size: large;   
+    }
+    
+
+   
 
 }

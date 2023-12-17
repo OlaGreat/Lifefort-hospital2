@@ -16,13 +16,14 @@ html, body {
 
 
 @media only screen and (max-width: 600px) {
+    
     .below-header{
         padding-top: 100px;
     }
 
-    .landing-page{
+    /* .landing-page{
         width: 100%;
     }
-    
+     */
 }
 
