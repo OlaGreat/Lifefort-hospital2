@@ -196,10 +196,11 @@
 }
 
 @media only screen and (max-width:1024px) and (min-width: 601px)   {
+    
     .unique-care{
         display: flex;
         align-items: center;
-        width: 800px;
+        width: 700px;
         justify-content: space-between;
         margin: auto;
         padding: 40px 0px;
@@ -208,8 +209,8 @@
     
     
     .children-image{
-        width: 400px;
-        height: 300px;
+        width: 350px;
+        height: 250px;
         border-radius: 10px;
         /* padding-right: 40%; */
     }
@@ -220,34 +221,31 @@
     }
     
     .doctor-patient{
-        display: none;
         display: flex;
         align-items: center;
-        width: 800px;
+        width: 700px;
         justify-content: space-between;
         margin: auto;
         padding: 40px, 0px;
         padding-top: 50px;
-    }
+      }
     
     .doctor-image{
-        display: none;
-        width:  400px;
-        height: 300px;
+        width:  350px;
+        height: 250px;
         padding: 20px;
-       border-radius: 40px;
+        border-radius: 40px;
+     
     }
     
     .doctor-patientWriteUp{
-        display: none;
-        width: 300px;
+        width: 300px;        
     }
     
     .location{
-        display: none;
         display: flex;
         align-items: center;
-        width: 800px;
+        width: 700px;
         justify-content: space-between;
         margin: auto;
         padding: 40px, 0px;
@@ -255,35 +253,30 @@
     
     }
     .location-image{
-        display: none;
-        width: 400px;
-        height: 300px;
+        width: 350px;
+        height: 250px;
         border-radius: 10px;
-    
     }
     
     .location-writeUp{
-        display: none;
         width: 300px;   
     }
     
     .facilities{
-        display: none;
         padding-top: 50px;
-        width: 1300px;
-        margin: auto;
+        width: 300px;
+        margin-left: 35px;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 20px;
     }
-    .facilities-writeUp{
-        display: none;
-    }
     .facilities img{
-        display: none;
-        width: 400px;
+        width: 345px;
         height: 300px; 
         border-Radius: 10px;
+    }
+    .facilities-writeUp{
+        width: 300px;
     }
     
     .doctor-patientWriteUp-mobileview{
