@@ -278,6 +278,9 @@
     .facilities-writeUp{
         width: 300px;
     }
+    .children-ward2{
+        display: none;
+    }
     
     .doctor-patientWriteUp-mobileview{
         display: none;

@@ -27,11 +27,11 @@ const Ourservices = () => {
                 </div>
                 <div className='serviceImage'>
                     <img src={childfriendly}   alt="" />
-                    <p>Children-Friendly Environment</p>
+                    <p className='friendly-environment'>Children-Friendly Environment</p>
                 </div>
                 <div className='serviceImage'>
                     <img src={dispensary}  alt="" />
-                    <p>Dispensary</p>
+                    <p className='dispensary'>Dispensary</p>
                 </div>
                 <div className='serviceImage'>
                     <img src={growthmonitoring}  alt="" />
@@ -43,7 +43,7 @@ const Ourservices = () => {
                 </div>
                 <div className='serviceImage'>
                     <img src={inpatient}  alt="" />
-                    <p>In-Patient</p>
+                    <p className='inpatient'>In-Patient</p>
                 </div>
                 <div    className='serviceImage'>
                 <img src={ops}   alt="" />

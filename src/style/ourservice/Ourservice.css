@@ -12,6 +12,7 @@
     padding-right: 30px;
     width: 35px;
 }
+
 @media only screen and (max-width:600px) {
     .ourServices{
         /* width: 50%; */
@@ -42,7 +43,55 @@
 }
 
 @media only screen and (max-width:1024px) and (min-width: 601px)   {
-    .services{
-        display: none;
+    /* .ourServices{ */
+        /* width: 50%; */
+        /* width: 250px;
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    } */
+    /* .serviceImage img{ */
+        /* padding-right: 30px; */
+        /* width: 25px;
+    } */
+
+    /* .Paediatrician{
+        width: 150px;
+        text-align: start;
     }
+
+    .serviceImage{
+        display: flex;
+        width: 200px;
+    }
+   
+    .serviceImage p{
+        margin-left: -20px;
+    } */
+
+    .ourServices{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 700px;
+        margin: 0px;
+        margin-left: 40px;
+    }
+    .serviceImage{
+        display: flex;
+        width: 240px;
+    }
+    .serviceImage img{
+        padding-right: 30px;
+        width: 35px;
+    }
+
+    .Paediatrician{
+        width: 90px;
+    }
+    .friendly-environment{
+        margin-right: 50px;
+    }
+
+    
+
 }
