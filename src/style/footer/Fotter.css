@@ -182,6 +182,72 @@
 
 @media only screen and (max-width:1024px) and (min-width: 601px)   {
     .fotter{
-        display: none;
+        /* background-color: #3d88ba; */
+        background-image: url("../../assets/image/Black-mother-and-baby.jpg"); 
+        background-size: cover;
+        min-height: 382px;
+        margin-top: 13px;
+        background-position: center ; 
+        /* background-attachment: fixed; */
+        /* height: auto; */
+        width: 100%;
     }
+    .address{
+        display:flex;
+        margin-left: -20px;
+        margin-top: -192px;
+        border: 1px black solid;
+        width: 100%;
+        height: 200px ;
+        overflow: hidden;
+        padding-top: 71px;
+        
+    }
+    .address p{
+        display: contents;
+        color: #f7f4f4;
+        padding-left: 20px;
+        font: trade-gothic-next;
+        text-align: start;
+    }   
+    .policyd{
+        padding-left: 274px;
+    }
+   
+    .belowFotter{
+        background-color: #00283d;
+        max-height: 100%;
+    }
+    .communication-button{
+        margin-top: 50px;
+        border: 1px black solid;
+        width: 100%;
+
+    }
+    
+
+    .phone-number{
+        color: #f7f4f4;
+        background-color: #2775ad;
+        margin-left: 0px;
+        border-radius: 6px;
+        height: 50px;
+        font: 'trade-gothic-next';
+        font-size: 13px;
+        font-weight: '700';
+    }
+
+
+    .email-address{
+        color: #f7f4f4;
+        background-color: #2775ad;
+        margin-left: 145px;
+        border-radius: 6px;
+        height: 50px;
+        font: 'trade-gothic-next';
+        font-size:13px;
+        font-weight:700 ;
+    }
+    
+  
 }

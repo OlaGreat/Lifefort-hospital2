@@ -29,6 +29,19 @@ padding-top: 50px;
 
 @media only screen and (max-width:1024px) and (min-width: 601px)   {
     .map{
-        display: none;
-    }
+        display: inline-block;
+        justify-content: space-between;
+        width: 700px;
+        margin: auto;
+        padding-top: 50px;
+        }
+        
+        .map hr{
+            background-color: #2775ad;
+            border-color: #2775ad;
+            width: 700px;
+            height: 5px;
+            margin-top: 50px;
+        }
+    
 }

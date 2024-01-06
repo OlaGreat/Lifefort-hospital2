@@ -47,11 +47,11 @@ const Ourservices = () => {
                 </div>
                 <div    className='serviceImage'>
                 <img src={ops}   alt="" />
-                <p>Out Patient Services</p>
+                <p id='ops'>Out Patient Services</p>
                 </div>
                 <div className='serviceImage'>
                 <img src={psurgeon}   alt="" />
-                <p>Paediatric Surgery</p>
+                <p className='psurgeon'>Paediatric Surgery</p>
                 </div>
                 <div className='serviceImage'>
                 <img src={ps}   alt="" />

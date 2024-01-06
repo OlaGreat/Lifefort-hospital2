@@ -27,14 +27,14 @@ const Footer = () => {
 
             <div className='address'>
                 <img src={location} alt="" />
-                <p>
+                <p id='hospital-address'>
                 Lifefort Children's Centre <br />
                 70 Agege Motor Road, <br />
                 by Bishop St, Junction 101283,<br />
                 Lagos, Nigeria.
                 </p>
 
-                <div >
+                <div className='policyd'>
                     <p className='policy'>
                      ©2017 LIFEFORT CHILDREN'S MEDICAL CENTRE.<br />
                      Terms of Use | Privacy Policy
@@ -43,17 +43,17 @@ const Footer = () => {
 
             </div>
 
-                <div className='vision-top' >
-                    <h2  style={{color: '#f0f0f0', }}>Vision</h2>
-                    <p className='vision'>To ensure that our children live life at its fullest by providing excellent <br />
-                        comprehensive child health promotive services in a child friendly environment.
-                    </p>
-                </div>
+            <div className='vision-top' >
+             <h2  style={{color: '#f0f0f0', }}>Vision</h2>
+                <p className='vision'>To ensure that our children live life at its fullest by providing excellent <br />
+                    comprehensive child health promotive services in a child friendly environment.
+                </p>
+            </div>
 
             <div className='belowFotter'>
                 <div className='lifefort'>
                 <h2 style={{color: '#070707', backgroundColor: '#ffffff'}}>LIFEFORT</h2>
-                <h2> PEDIATRIC CARE</h2>
+                <h2 id='ped'> PEDIATRIC CARE</h2>
                 </div>
 
             </div>
