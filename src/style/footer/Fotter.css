@@ -194,13 +194,12 @@
     }
     .address{
         display:flex;
-        margin-left: -20px;
+        margin-left: 1px;
         margin-top: -192px;
-        border: 1px black solid;
         width: 100%;
         height: 200px ;
         overflow: hidden;
-        padding-top: 71px;
+        padding-top: -6px;
         
     }
     .address p{
@@ -218,11 +217,10 @@
         background-color: #00283d;
         max-height: 100%;
     }
-    .communication-button{
-        margin-top: 50px;
-        border: 1px black solid;
-        width: 100%;
 
+    .communication-button{
+        margin-top: 155px;
+        width: 100%;
     }
     
 
@@ -247,6 +245,10 @@
         font: 'trade-gothic-next';
         font-size:13px;
         font-weight:700 ;
+    }
+    .vision{
+        color: #f0f0f0;
+        font-size: 20px;
     }
     
   
