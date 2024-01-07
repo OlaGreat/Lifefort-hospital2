@@ -105,7 +105,6 @@
     }
 
     .image{
-        border: 1px black solid;
        overflow-x: hidden;
     }
 
@@ -130,13 +129,11 @@
 
     .doctor-patientWriteUp{
         display: none;
-        border: 1px black solid;
         margin-left: auto;
         margin-right: auto;
     }
 
     .doctor-patientWriteUp-mobileview{
-        border: 1px black solid;
         margin-left: auto;
         margin-right: auto;
         padding: 20px;
@@ -153,7 +150,6 @@
     }
 
     .location-writeUp{
-        border: 1px black solid;
         margin-left: auto;
         margin-right: auto;
     }
@@ -178,7 +174,6 @@
     .facilities img{
         width: 180px;
         height: 150px;
-        border: 1px black solid;
     }
 
     .reception{
