@@ -20,6 +20,11 @@ const Header = () =>{
                 <img src ={lifefortlogo} alt="lifefortlogo" className='lifeforthospital' />  
             </div>
 
+            <button className="hamburger is-active">
+                <div className="bar"></div>
+
+            </button>
+
             <div className="contact-us">
 
                 <div className="phone">
