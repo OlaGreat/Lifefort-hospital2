@@ -14,12 +14,12 @@ const navbar = () => {
 
 
         <ul id='list'>
-            <li><a href="${landingPage}">Home</a></li>
-            <li><a href="${about}">About Lifefort</a></li>
-            <li><a href="${services}">Services</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Lifefort</a></li>
+            <li><a href="">Services</a></li>
             <li><a href="">Meet the medical Director</a></li>
             <li><a href="">Blog</a></li>
-            <li><a href="${contact}">Contact</a></li>
+            <li><a href="">Contact</a></li>
         </ul>
 
         <div>

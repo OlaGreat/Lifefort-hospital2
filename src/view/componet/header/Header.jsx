@@ -41,12 +41,12 @@ const Header = () =>{
                 <div className="bar"></div>
             </label>
             <ul id="H-list">
-                <li><a href="${landingPage}">Home</a></li>
+                <li><a href="">Home</a></li>
                 <li><a href="">About Lifefort</a></li>
                 <li><a href="">Services</a></li>
                 <li><a href="">Meet the Medical Director</a></li>
                 <li><a href="">Blog</a></li>
-                <li><a href="${contact}">Contact</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
 
             
