@@ -3,6 +3,9 @@ import '../../../style/header/Header.css'
 import lifefortlogo from '../../../assets/image/lifefort logo.jpg'
 import mobile from '../../../assets/image/icons/mobile.svg'
 import Email from '../../../assets/image/icons/email.svg'
+import landinPage from '../landingPage/LandingPage.jsx';
+import about from '../Aboutlifefort/Aboutlifefort.jsx';
+import contact from '../footer/Footer.jsx'
 
 
 
@@ -25,11 +28,28 @@ const Header = () =>{
                 <img src ={lifefortlogo} alt="lifefortlogo" className='lifeforthospital' />  
             </div>
 
-            
 
-            <button className={`hamburger ${open ? 'is-active' : ''}`} onClick={() => setOpen(!open)}>
+            <input
+                type="checkbox"
+                className="hamburger-checkbox"
+                id="hamburger-checkbox"
+                checked={open}
+                onChange={() => setOpen(!open)}
+            />
+            <label htmlFor="hamburger-checkbox" className={`hamburger-label ${open ? 'is-active' : ''}`}>
+
                 <div className="bar"></div>
-            </button>
+            </label>
+            <ul id="H-list">
+                <li><a href="${landingPage}">Home</a></li>
+                <li><a href="">About Lifefort</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Meet the Medical Director</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="${contact}">Contact</a></li>
+            </ul>
+
+            
 
             <div className="contact-us">
 
