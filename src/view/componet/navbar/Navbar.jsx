@@ -6,20 +6,29 @@ import Navbarcss from '../../../style/navbar/Navbar.css';
 import landinPage from '../landingPage/LandingPage.jsx';
 import about from '../Aboutlifefort/Aboutlifefort.jsx';
 import contact from '../footer/Footer.jsx'
+import { Link } from 'react-router-dom';
 
 const navbar = () => {
+
+  const handleEmail = () => {
+    window.location.href = 'mailto:info@lifefortchildrenshospital.com'
+  }
+
+  const handleMobile = () => {
+    window.location.href = 'tel:+2348037175616'
+
+  }
   return (
     <div className='description'>
         
 
 
         <ul id='list'>
-            <li><a href="">Home</a></li>
-            <li><a href="">About Lifefort</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Meet the medical Director</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contact</a></li>
+          <li><a href="">Home</a></li>
+          <li><Link to="/aboutlifefort">About Lifefort</Link></li>
+          <li><Link to="/ourservices">Services</Link></li>
+          <li><Link onClick={handleEmail}>Meet the Medical Director</Link></li>
+          <li><Link onClick={handleMobile}>Contact us</Link></li>
         </ul>
 
         <div>

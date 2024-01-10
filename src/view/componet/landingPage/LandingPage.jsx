@@ -6,7 +6,7 @@ import '../../../style/landingpage/Landingpage.css';
 import Imageword from '../lifefortimage/Lifefortimage.jsx';
 import Ourservice from '../ourservice/Ourservice.jsx';
 import Map from '../map/Map.jsx';
-import Fotter from '../footer/Footer.jsx';
+import Footer from '../footer/Footer.jsx';
 
 import Header from '../header/Header.jsx';
 
@@ -21,7 +21,7 @@ const LandingPage = () => {
     <Imageword/>
     <Ourservice/>
     <Map/>
-    <Fotter/>
+    <Footer/>
     </div>
 
   </div>

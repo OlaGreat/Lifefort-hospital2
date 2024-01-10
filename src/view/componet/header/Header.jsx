@@ -3,9 +3,9 @@ import '../../../style/header/Header.css'
 import lifefortlogo from '../../../assets/image/lifefort logo.jpg'
 import mobile from '../../../assets/image/icons/mobile.svg'
 import Email from '../../../assets/image/icons/email.svg'
-import landinPage from '../landingPage/LandingPage.jsx';
-import about from '../Aboutlifefort/Aboutlifefort.jsx';
-import contact from '../footer/Footer.jsx'
+import { Link } from "react-router-dom";
+
+
 
 
 
@@ -37,16 +37,15 @@ const Header = () =>{
                 onChange={() => setOpen(!open)}
             />
             <label htmlFor="hamburger-checkbox" className={`hamburger-label ${open ? 'is-active' : ''}`}>
-
                 <div className="bar"></div>
             </label>
+            
             <ul id="H-list">
                 <li><a href="">Home</a></li>
-                <li><a href="">About Lifefort</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Meet the Medical Director</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
+                <li><Link to="/aboutlifefort">About Lifefort</Link></li>
+                <li><Link to="/ourservices">Services</Link></li>
+                <li><Link onClick={handleEmail}>Meet the Medical Director</Link></li>
+                <li><Link onClick={handleMobile}>Contact us</Link></li>
             </ul>
 
             
