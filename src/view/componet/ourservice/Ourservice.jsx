@@ -18,7 +18,7 @@ import '../../../style/ourservice/Ourservice.css'
 const Ourservices = () => {
     return(
         <div className="services">
-            <h2>Our Services</h2>
+            <h2 id='service'>Our Services</h2>
 
             <div className='ourServices'>
                 <div className='serviceImage'>
