@@ -19,6 +19,10 @@ const Header = () =>{
     }
     const [open, setOpen] = useState(false)
 
+    const handleClose = () => {
+        setOpen(false);
+      };
+
    
 
     return(
@@ -41,9 +45,9 @@ const Header = () =>{
             </label>
             
             <ul id="H-list">
-                <li><a href="">Home</a></li>
-                <li><a href="#aboutlifefort">About Lifefort</a></li>
-                <li><a href="#service">Services</a></li>
+                <li><a href="" onClick={handleClose}>Home</a></li>
+                <li><a href="#aboutlifefort" onClick={handleClose}>About Lifefort</a></li>
+                <li><a href="#service" onClick={handleClose}>Services</a></li>
                 <li><Link onClick={handleEmail}>Meet the Medical Director</Link></li>
                 <li><Link onClick={handleMobile}>Contact us</Link></li>
             </ul>
