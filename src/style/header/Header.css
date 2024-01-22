@@ -57,7 +57,7 @@
     
     .lifeforthospital{
         width: 80px;
-         padding-left: 20px;
+        padding-left: 20px;
         /* margin-top: 5px;  */
     }
 
@@ -67,7 +67,6 @@
         margin-left: auto;
         margin-right: 1%;
         font-size: small;
-
     }
     
     .email{
@@ -132,7 +131,7 @@
   }
     .hamburger-checkbox:checked ~ #H-list {
         display: flex; 
-    }
+  }
 
   #H-list li{
     margin-top: 50px;
