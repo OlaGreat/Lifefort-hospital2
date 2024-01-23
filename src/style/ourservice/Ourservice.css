@@ -21,6 +21,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-top: 50px;
+        z-index: 5;
     }
     .serviceImage img{
         /* padding-right: 30px; */
