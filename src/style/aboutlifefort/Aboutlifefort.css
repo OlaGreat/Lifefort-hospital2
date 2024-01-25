@@ -3,7 +3,7 @@
 }
 @media screen and (max-width: 600px) {
 
-    .about{
+    #about{
         margin-right:auto;
         margin-left: auto;
         padding: 5px;  

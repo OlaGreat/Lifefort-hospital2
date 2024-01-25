@@ -4,7 +4,7 @@ import '../../../style/aboutlifefort/Aboutlifefort.css'
 const Aboutlifefort = () => {
     return(
 
-        <div className='about'>
+        <div id='about'>
             <h2 id='aboutlifefort'>Welcome to Lifefort</h2>
             <hr style={{backgroundColor: '#2775ad',borderColor: '#2775ad', width: '150px', height: '0.4px', marginTop: '1px'}}/>
             <p className='web-display'>

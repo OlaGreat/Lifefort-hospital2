@@ -25,8 +25,8 @@ const navbar = () => {
 
         <ul id='list'>
           <li><a href="">Home</a></li>
-          <li><Link to="/aboutlifefort">About Lifefort</Link></li>
-          <li><Link to="/ourservices">Services</Link></li>
+          <li><a href="#about">About Lifefort</a></li>
+          <li><a href="#services">Services</a></li>
           <li><Link onClick={handleEmail}>Meet the Medical Director</Link></li>
           <li><Link onClick={handleMobile}>Contact us</Link></li>
         </ul>

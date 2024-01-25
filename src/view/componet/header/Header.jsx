@@ -46,8 +46,8 @@ const Header = () =>{
             
             <ul id="H-list">
                 <li><a href="" onClick={handleClose}>Home</a></li>
-                <li><a href="#aboutlifefort" onClick={handleClose}>About Lifefort</a></li>
-                <li><a href="#service" onClick={handleClose}>Services</a></li>
+                <li><a href="#about" onClick={handleClose}>About Lifefort</a></li>
+                <li><a href="#services" onClick={handleClose}>Services</a></li>
                 <li><Link onClick={handleEmail}>Meet the Medical Director</Link></li>
                 <li><Link onClick={handleMobile}>Contact us</Link></li>
             </ul>
