@@ -29,7 +29,10 @@ const Header = () =>{
         <div className="header">
 
             <div>
-                <img src ={lifefortlogo} alt="lifefortlogo" className='lifeforthospital' />  
+        
+                <a href="#landing-page"> 
+                    <img src ={lifefortlogo} alt="lifefortlogo" href="#landing-page" className='lifeforthospital' /> 
+                </a>
             </div>
 
 
